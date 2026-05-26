@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/project'
+  base: '/project',
   title: "CS20",
   description: "project",
   themeConfig: {
