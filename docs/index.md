@@ -5,14 +5,17 @@ layout: home
 hero:
   name: "CS20"
   text: "project"
-  tagline: My great project tagline
+  tagline: JS, HTML, CSS
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Journals
+      link: /Journal-JS
+    - theme: brand
+      text: Codes
+      link: /Codes
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Changes
+      link: /Changes
 
 features:
   - title: Feature A

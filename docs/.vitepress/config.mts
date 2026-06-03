@@ -4,20 +4,30 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/project',
   title: "CS20",
-  description: "project",
+  description: "",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Journal', link: '/Journal-JS' },
+      { text: 'Codes', link: '/Codes' },
+      { text: 'Changes', link: '/Changes' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Project',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Codes', link: '/Codes' },
+          { text: 'Changes', link: '/Changes' }
+        ]
+      },
+      {
+        text: 'Journals',
+        items: [
+          { text: 'Journal JS', link: '/Journal-JS' },
+          { text: 'Journal HTML', link: '/Journal-HTML' },
+          { text: 'Journal CSS', link: '/Journal-CSS' }
         ]
       }
     ],
