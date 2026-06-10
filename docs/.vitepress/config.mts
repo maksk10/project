@@ -23,7 +23,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Journal', link: '/Journal-JS' },
+      { text: 'Journal', link: '/Journal-HTML' },
       { text: 'Codes', link: '/Codes' },
       { text: 'Changes', link: '/Changes' }
     ],
