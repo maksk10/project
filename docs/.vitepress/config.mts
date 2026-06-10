@@ -18,6 +18,9 @@ export default defineConfig({
   description: "",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+    provider: 'local'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Journal', link: '/Journal-JS' },
@@ -37,9 +40,9 @@ export default defineConfig({
       {
         text: `${notes} Journals`,
         items: [
-          { text: `${JSicon}`, link: '/Journal-JS' },
-          { text: `${HTMLicon}`, link: '/Journal-HTML' },
-          { text: `${CSSicon}`, link: '/Journal-CSS' }
+          { text: `${HTMLicon} HyperText Markup Language`, link: '/Journal-HTML' },
+          { text: `${CSSicon} Cascading Style Sheets`, link: '/Journal-CSS' },
+          { text: `${JSicon} JavaScript`, link: '/Journal-JS' }
         ]
       }
     ],

@@ -5,11 +5,11 @@ layout: home
 hero:
   name: "CS20"
   text: "project"
-  tagline: JS, HTML, CSS
+  tagline: Learning HTML, CSS, JS with The Odin Project
   actions:
     - theme: brand
       text: Journals
-      link: /Journal-JS
+      link: /Journal-HTML
     - theme: brand
       text: Codes
       link: /Codes
